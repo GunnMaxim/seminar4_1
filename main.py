@@ -1,16 +1,12 @@
-# This is a sample Python script.
+n = int(input("Input the module, choose one: \n 1)BIS \n 2)FoE \n"))
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if n == 1:
+    print("You have chosen BIS Module \n The assiment caonsist of 2 marks\n First one for CW \n Second one for examenation")
+    a1 = int(input("Enter the mark of the CW"))
+    a2 = int(input("Enter the mark of the examination\n"))
+    print("Your overall mark is " + str(a1 * 0.4 + a2 * 0.6))
+if n == 2:
+    print("You have chosen FoE Module \n The assiment caonsist of 2 marks\n First one for CW \n Second one for examenation")
+    b1 = int(input("Enter the mark of the CW"))
+    b2 = int(input("Enter the mark of the examination\n"))
+    print("Your overall mark is " + str(b1 * 0.4 + b2 * 0.6))
